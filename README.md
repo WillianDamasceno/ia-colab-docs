@@ -1,5 +1,47 @@
 # Documentação sobre Google Colab e Python
 
+## Características gerais do Python
+
+### O que é Python?
+
+Python é uma linguagem de programação de alto nível, interpretada. Python é conhecida por sua sintaxe simples e legível, por isso é usada tanto por iniciantes quanto por desenvolvedores mais experientes. Ela suporta diversos paradigmas da programação, dentre entre programação orientada e objetos, funcional e procedural.
+
+### Principais características:
+
+- Sintaxe simples e legível, facilitando escrita e leitura do código.
+- Suporta diversos paradigmas de programação.
+- Uma grande quantidade de bibliotecas e frameworks, aumentando a produtividade.
+- Portabilidade, sendo executável em diversas plataformas.
+- Comunidade ativa e documentação completa.
+
+### Prós:
+
+- Facilidade para aprender, por conta de uma sintaxe mais simples, torna o aprendizado mais simples, por isso é uma escolha excelente para iniciantes.
+- A grande quantidade de bibliotecas e frameworks ajuda os desenvolvedores a resolverem problemas de forma rápida e eficiente.
+- Versatilidade, python pode ser utilizado em diversas áreas, desde desenvolvimento web, cientifico, automações e até machine learning;
+- Open Source: python é open source então você pode baixar o código fonte, modificar e usar sua versão personalizada
+
+### Contras:
+
+- Desempenho, por conta do ser uma linguagem interpretada pode ter um desempenho abaixo de outras linguagem por exemplo c++ que é uma linguagem de baixo nível.
+- O tamanho do código comparado com outras linguagens pode ser maior para realizar a mesma tarefa.
+- Dependências externas, em projetos mais complexos, o gerenciamento de dependências externas pode se tornar complicado;
+
+### Por que usar Machine Learning em Python?
+
+- Ecossistema robusto: por conta de todas os frameworks e bibliotecas populares para machine learning, como TensorFlow, Scikit-learn, Keras e PyTorch, que tornam o desenvolvimento de modelos de machine learning mais eficiente.
+- Facilidade de prototipagem: Python é conhecido por sua facilidade de prototipagem, permitindo que os cientistas de dados experimentem rapidamente com diferentes algoritmos e técnicas de machine learning.
+- Grande comunidade e recursos: python tem uma comunidade ativa de cientistas de dados e desenvolvedores de machine learning, por conta disso existe uma grande quantidade de recursos disponíveis.
+- Integração com outras tecnologias: Python pode ser integrado com outras tecnologias como bando de dados, ferramentas de visualização de dados, e sistemas de produção, tornando-o uma escolha conveniente e poderosa para desenvolvimento de machine learning.
+
+### Fontes:
+
+https://aws.amazon.com/pt/what-is/python/
+
+https://ltecnologia.com.br/blog/vantagens-e-desvantagens-da-linguagem-python/
+
+https://www.linkedin.com/pulse/linguagem-python-3-pr%C3%B3s-e-contras-leia-o-artigo-at%C3%A9-fim-antonio-m--knenf/
+
 ## Gerenciador de Pacotes
 
 ### O que é o PIP?
