@@ -60,7 +60,22 @@ Em Python, uma biblioteca (também conhecida como módulo ou pacote) é um conju
 
 O pandas é uma biblioteca Python utilizada para manipulação e análise de dados. Ela fornece estruturas de dados poderosas, como DataFrames, e ferramentas para limpeza, transformação e análise de dados.
 
-![alt text](images/1-pandas.png)
+```python
+import pandas as pd
+
+data = {'Nome': ['Alice', 'Bob', 'Charlie'],
+        'Idade': [25, 30, 35]}
+df = pd.DataFrame(data)
+
+print(df.head())
+```
+
+> Resultado:
+> | | Nome | Idade |
+> |---|---------|-------|
+> | 0 | Alice | 25 |
+> | 1 | Bob | 30 |
+> | 2 | Charlie | 35 |
 
 Neste exemplo:
 
@@ -72,7 +87,19 @@ Neste exemplo:
 
 NumPy é uma biblioteca fundamental para computação científica em python. Ela oferece suporte a arrays multidimensionais e funções matemáticas para operações eficientes.
 
-![alt text](images/2-numpy.png)
+```python
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(np.mean(arr))
+```
+
+> Resultado:
+>
+> ```
+> 3.0
+> ```
 
 Neste Exemplo:
 
@@ -84,7 +111,21 @@ Neste Exemplo:
 
 SciPy é uma bibliotec que estende as capacidades do NumPy com funções para otimização, álgebra linear, integração, interpolação, entre outros.
 
-![alt text](images/3-scipy.png)
+```python
+from scipy import optimize
+
+def func(x):
+    return x**2 + 5*x + 6
+
+result = optimize.minimize(func, x0=0)
+print(result.x)
+```
+
+> Resultado:
+>
+> ```
+> [-2.50000002]
+> ```
 
 Neste Exemplo:
 
@@ -97,7 +138,17 @@ Neste Exemplo:
 
 Seaborn é uma biblioteca de visualização de dados baseada na famosa biblioteca matplotlib. Ela simplifica a criação de gráficos estatísticos atrativos e informativos. (Para utilização precisa importar também a matplotlib)
 
-![alt text](images/4-seaborn.png)
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.scatterplot(x='Idade', y='Nome', data=df)
+plt.show()
+```
+
+> Resultado:
+>
+> ![alt text](images/1-seaborn.png)
 
 Neste Exemplo:
 
@@ -109,7 +160,50 @@ Neste Exemplo:
 
 Scikit-learn é uma biblioteca de aprendizado de máquina que oferece ferramentas simples e eficientes para análise preditiva de dados. Ela inclui algoritmos de classificação, regressão, clustering, entre outros.
 
-![alt text](images/5-sklearn.png)
+```python
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+import numpy as np
+
+np.random.seed(0)
+X = 2 * np.random.rand(100, 1)
+y = 4 + 3 * X + np.random.randn(100, 1)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = LinearRegression()
+
+model.fit(X_train, y_train)
+
+predictions = model.predict(X_test)
+
+print(predictions)
+```
+
+> Resultado:
+>
+> ```
+> [[ 8.3476823 ]
+> [ 4.81662104]
+> [10.04607379]
+> [ 8.21710217]
+> [ 8.19395067]
+> [ 8.2839789 ]
+> [ 6.96622591]
+> [ 6.10804438]
+> [ 8.94126619]
+> [ 7.48852934]
+> [ 8.8601208 ]
+> [ 5.78851984]
+> [ 7.82362983]
+> [ 7.60586977]
+> [ 6.11154761]
+> [ 6.74001543]
+> [ 5.89767238]
+> [ 4.92517791]
+> [ 7.60354103]
+> [ 8.83665886]]
+> ```
 
 Neste exemplo:
 
