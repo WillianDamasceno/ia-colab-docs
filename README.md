@@ -1,5 +1,78 @@
 # Documentação sobre Google Colab e Python
 
+## Ferramenta Google Colab
+
+### O que é o Google Colab?
+
+O Google Colab é um ambiente de desenvolvimento integrado (IDE) baseado na nuvem que permite escrever e executar código Python no navegador. É popular entre cientistas de dados e desenvolvedores por suas funcionalidades, como:
+
+- Facilidade de uso: Interface intuitiva para criar e compartilhar notebooks.
+- Recursos poderosos: Acesso a GPUs e TPUs para processamento intensivo.
+- Integração com Google Drive: Armazenamento e compartilhamento de notebooks.
+- Colaboração em tempo real: Múltiplos usuários podem trabalhar juntos simultaneamente.
+- Instalação de pacotes: Suporte para instalar e usar bibliotecas Python adicionais.
+- Conexão com GitHub: Importação direta de notebooks.
+
+### O que são notebooks?
+
+Os notebooks do Colab são documentos interativos baseados na nuvem que combinam código executável em Python, rich text, visualizações e outros elementos interativos. Eles permitem desenvolver, documentar e compartilhar projetos de forma colaborativa e eficiente, tudo dentro do navegador.
+
+### O que são células?
+
+Em notebooks do Colab, células são os blocos de construção fundamentais que podem conter código, texto, visualizações, ou outros elementos. Existem dois tipos principais de células:
+
+- **Células de Código**: Contêm código Python que pode ser executado. Os resultados, como saídas de texto ou gráficos, aparecem logo abaixo da célula após a execução.
+
+- **Células de Texto (Markdown)**: Usam a linguagem Markdown para formatar texto, adicionar títulos, listas, links, imagens, e outros elementos de rich text. São úteis para documentar o código, adicionar descrições e organizar o notebook.
+
+As células permitem que os notebooks sejam interativos e bem organizados, combinando código e documentação em um único documento.
+
+### O que é o Jupyter?
+
+O Jupyter é um projeto de código aberto que oferece um ambiente interativo para computação científica e de dados. Seu componente principal, o **Jupyter Notebook**, permite criar e compartilhar documentos que combinam:
+
+- **Código executável** em mais de 40 linguagens (Python, R, Julia, C++, Java, etc.)
+- **Texto formatado** usando Markdown
+- **Visualizações** interativas
+- **Equações matemáticas** com LaTeX
+
+É amplamente utilizado em ciência de dados e aprendizado de máquina por sua interatividade, facilidade de documentação e compartilhamento, e suporte a múltiplas linguagens.
+
+### Quais são as principais operações da ferramenta?
+
+- **Cria novas células:** Pressionando os botões `+ Código` ou `+ Texto` no topo da tela, você pode criar novas células com código Python ou Markdown respectivamente.
+
+![alt text](images/2-create-cell.png)
+
+- **Editor de código:** A área de edição de código é o lugar onde você pode escrever seu código Python.
+
+![alt text](images/3-code.png)
+
+- **Botão play:** Pressionando o botão `play`, você pode executar o código da célula atual.
+
+![alt text](images/4-play.png)
+
+- **Resultado:** Quando o código for executado, o resultado é exibido na área de resultado logo abaixo do código.
+
+![alt text](images/5-result.png)
+
+- **Opções da célula:** À direita temos a lista de opções de células que executam as seguintes ações:
+  - Setas ne da navegação entre células
+  - Compartilhar link
+  - Adicionar comentário
+  - Configurações da célula
+  - Espelhar célula na guia
+  - Excluir célula
+  - Mais opções
+
+![alt text](images/6-cell-options.png)
+
+### Referênciass
+
+https://research.google.com/colaboratory/faq.html
+
+https://jupyter.org
+
 ## Estrutura da Linguagem Python - Variáveis
 
 No Python, variáveis são contêineres que armazenam dados. Uma das características mais interessantes de Python é sua tipagem dinâmica, o que significa que você não precisa declarar o tipo de uma variável ao criá-la. Em vez disso, o tipo é inferido automaticamente com base no valor atribuído a ela. Existem diferentes tipos de variáveis em Python, cada uma com suas próprias características e usos.
@@ -317,7 +390,6 @@ O PIP é um gerenciador de pacotes que permite buscar, instalar, atualizar e des
 `pip install --upgrade nome_do_pacote` para atualizar um pacote;
 
 `pip uninstall nome_do_pacote` para desinstalar um pacote;
-
 
 ### Referências
 
