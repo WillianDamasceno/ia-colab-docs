@@ -1,5 +1,12 @@
 # Documentação sobre Google Colab e Python
 
+Grupo:
+- Estevão Bresolin
+- Henrique Passarin
+- Lucas Barp
+- Tauan Maciel
+- Willian Jerônimo Damasceno Machado
+
 ## Ferramenta Google Colab
 
 ### O que é o Google Colab?
